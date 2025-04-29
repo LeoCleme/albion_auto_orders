@@ -12,7 +12,7 @@ def get_structure():
 orders_file = Path("orders.xlsx")
 if not orders_file.exists():
     df = DataFrame(columns=["Item", "Price"])
-else:    
+else:
     df = read_excel(orders_file)
 struct = get_structure()
 
