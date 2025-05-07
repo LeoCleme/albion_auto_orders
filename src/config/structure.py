@@ -40,4 +40,16 @@ class Structure:
 
     REMOVE_OLD_ORDER = Element("remove_old_order", img_manager, (1317, 410))
 
-    BOUGHT_ORDERS = Element("bought_orders", img_manager, (1384, 724))
+    BOUGHT_ORDERS = Element("bought_orders", img_manager, (1384, 740))
+
+    TAKE_ITEM = Element("take_item", img_manager, (1270, 427))
+
+    MATERIALS = Element("materials", img_manager, (783, 622))
+
+    RUNE = Element("rune", img_manager, (950, 753))
+
+    SOUL = Element("soul", img_manager, (950, 783))
+
+    ITEM_NUMBER = Element("item_number", img_manager, (576, 572))
+
+    ADD_ITEM_SILVER = Element("add_item_silver", img_manager, (860, 628))
